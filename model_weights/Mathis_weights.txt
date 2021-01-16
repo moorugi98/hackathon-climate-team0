@@ -1,0 +1,5 @@
+﻿
+Mathis weights:
+Min max scaling on train set ( 1850-2000) for inputs
+dropout 0.2 before conv3d
+normalization for both input and output done globally instead of locally
