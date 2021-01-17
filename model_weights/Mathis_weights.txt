@@ -2,4 +2,9 @@
 Mathis weights:
 Min max scaling on train set ( 1850-2000) for inputs
 dropout 0.2 before conv3d
-normalization for both input and output done globally instead of locally
+normalization for both input and output done globally instead of locally (over all axis)
+
+Version1: first try, prototype
+on_historic: train with data until 2014
+on_train: train with data until 2000, validate with 14 yrs. 
+normalization also depends on train data set
